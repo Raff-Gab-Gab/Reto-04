@@ -16,10 +16,6 @@ se usa transform.Translate() para mover al robot en la dirección deseada. Este 
 
 ![image](https://github.com/user-attachments/assets/2564a89b-c6c5-4377-bc8d-c2b2291ffa74)
 
-
-# Ahora para el graph:
-
-
 # Creando el script machine
 Se crea un nuevo graph llamado PlayerMovement. Este graph se utilizará para gestionar el movimiento del robot en la escena. entro del graph, se crean dos variables de tipo float: speedRotation y speed. Estas variables se configurarán para controlar la velocidad de rotación y la velocidad de movimiento del robot. Se les asignan valores desde el Inspector de Unity según se desee.
 
@@ -35,26 +31,22 @@ Uno de los nodos Sequence se conecta a un nodo de Transform Rotate. A este nodo 
 
 ![image](https://github.com/user-attachments/assets/0a301451-5d2b-4d0e-9202-62d205bc2bec)
 
-# Añadiendo la Lógica de Movimiento al frente:
-El segundo nodo del Sequence se conecta a un If Statement. Este if recibe como argumento un nodo de tipo OR, que verifica si se está presionando la tecla de flecha arriba o la tecla WW. Si la condición del if es cierta, se envía una señal a un nodo de Transform Translate, que recibe como argumento el resultado de la multiplicación de speed y Time.deltaTime multiplicadoo por -1 para el eje X. Esto mueve al robot hacia la derecha.
+# Añadiendo la Lógica de Movimiento a la derecha:
+El segundo nodo del Sequence se conecta a un If Statement. Este if recibe como argumento un nodo de tipo OR, que verifica si se está presionando la tecla de flecha derecha o la tecla D. Si la condición del if es cierta, se envía una señal a un nodo de Transform Translate, que recibe como argumento el resultado de la multiplicación de speed y Time.deltaTime multiplicadoo por -1 para el eje X. Esto mueve al robot hacia la derecha.
 
-![image](https://github.com/user-attachments/assets/78abbca2-1706-452b-b590-1f5ac87b6638)
+![image](https://github.com/user-attachments/assets/3a8dce34-01e7-404c-bd11-a3c60bdfa02f)
 
 # Configurando el Movimiento a la Izquierda:
 Si el if statement es falso, se conecta a otro if que realiza la misma función, pero para las teclas A y la flecha izquierda. En este caso, la multiplicación de Transform Translate se hace positiva para mover al robot en la dirección opuesta a la tecla D o flecha derecha, permitiendo así que el robot se desplace hacia la izquierda.
 
 ![image](https://github.com/user-attachments/assets/a730060b-9f31-42ad-9d9d-adb5f9b7b300)
 
-
 # Implementando el Movimiento Adelante y Atrás:
 En otro nodo del Sequence, se conecta un if adicional que tiene la misma lógica que los anteriores, pero esta vez para las teclas W (flecha arriba) y S (flecha abajo). Estos nodos afectan el eje Z en lugar del eje X, permitiendo que el robot se mueva hacia adelante y hacia atrás según las teclas presionadas.
 
-![image](https://github.com/user-attachments/assets/6a4fc2aa-e13e-47b6-af2a-ea78fb958ac8)
+![image](https://github.com/user-attachments/assets/7893a2e6-b8f9-4b59-a053-3a1fecc55c34)
 
-# Ejecutando el Programa para Probar el Movimiento:
-Luego se ejecuto el programa
 
->>Video va aqui
 
 
 
