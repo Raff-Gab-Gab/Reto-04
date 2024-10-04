@@ -5,9 +5,9 @@ Se codificó, por medio de "scripts" y programación en bloques, un personaje qu
 
 ### Secciones del proyecto
 (Pulse el hipertexto para dirigirse al archivo correspondiente)
-> [Personaje y movimiento](Reto-04/Creando_el_robot_y_su_movimiento.md)
-> [Punto de disparo](Reto-04/Creando_punto_de_disparo.md)
-> [La bala](Reto-04/Creando_la_bala.md)
+> [Personaje y movimiento](Creando_el_robot_y_su_movimiento.md)
+> [Punto de disparo](Creando_punto_de_disparo.md)
+> [La bala](Creando_la_bala.md)
 
 
 ## Video mostrando el movimiento y los disparos del personaje
