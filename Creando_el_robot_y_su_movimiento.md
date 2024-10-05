@@ -48,7 +48,7 @@ En otro nodo del Sequence, se conecta un if adicional que tiene la misma lógica
 
 ![image](https://github.com/user-attachments/assets/7893a2e6-b8f9-4b59-a053-3a1fecc55c34)
 
-
+[Volver al Readme](README.md)
 
 
 
