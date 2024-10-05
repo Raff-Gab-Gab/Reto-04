@@ -44,8 +44,9 @@ Finalmente, se arrastra el script a la bala en el Inspector.
 
 <p align>
    <img src="https://github.com/user-attachments/assets/462d5113-b26e-4c0a-b7be-44b051a2bc72" height="700" width="500" />
-  
 </p>
+
+[Volver al Readme](README.md)
 
 
 
